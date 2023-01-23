@@ -65,6 +65,47 @@
     font-weight: bold;
 }
 
+.showcase {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.listImg {
+    display: flex;
+    justify-content: center;
+}
+
+.listImg ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.listImg img {
+    width: 100px;
+    border-width: 5px;
+    border-color: #3882F6;
+}
+
+.imgText {
+    display: flex;
+    justify-content: center;
+}
+
+.imgText ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.imgText p { 
+    font-size: 12px;
+    width: 100px;
+    margin: 0;
+}
+
 .fooder {
     text-align: center;
     background-color: #1F2937;
@@ -74,7 +115,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
     height: 100vh;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,4 +141,11 @@ h2 {
     font-weight: bold;
     color: #F9FAF8;
     margin: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 30px 0;
 }
