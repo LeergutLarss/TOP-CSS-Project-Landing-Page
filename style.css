@@ -1,36 +1,20 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;  
-}
-
-ul {
-    padding: 0;
-    list-style: none;
-
-}
 .entry {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 0 300px;
+    padding-bottom: 75px;
 }
 .Header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    margin-bottom: 50px;
+    max-width: 1000px;
 }
-.Header h1 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
+
 .linksHeader ul{
     display: flex;
     gap: 20px;
@@ -42,11 +26,78 @@ ul {
     
 }
 .linksHeader a {
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
 }
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    color: #F9FAF8;
+    gap: 30px;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.main img {
+    width: 300px;
+    height: auto;
+    margin-right: 75px;
+}
+
+.hero {
+    width: 450px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+
+.hero button {
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+}
+
 .fooder {
     text-align: center;
     background-color: #1F2937;
     color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;  
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
 }
