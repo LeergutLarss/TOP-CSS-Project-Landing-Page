@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;  
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+
+}
+.entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.linksHeader ul{
+    display: flex;
+    gap: 20px;
+}
+
+.linksHeader {
+    display: flex;
+    align-items: center;
+}
+
+.fooder {
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
