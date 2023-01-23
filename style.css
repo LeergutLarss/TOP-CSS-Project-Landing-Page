@@ -20,11 +20,16 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #1F2937;
 }
 .Header {
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+.Header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .linksHeader ul{
     display: flex;
@@ -34,8 +39,12 @@ ul {
 .linksHeader {
     display: flex;
     align-items: center;
+    
 }
-
+.linksHeader a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .fooder {
     text-align: center;
     background-color: #1F2937;
